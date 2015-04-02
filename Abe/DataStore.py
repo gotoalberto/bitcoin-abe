@@ -636,8 +636,8 @@ store._ddl['configvar'],
 """CREATE TABLE datadir (
     datadir_id  NUMERIC(10) NOT NULL PRIMARY KEY,
     dirname     VARCHAR(2000) NOT NULL,
-    blkfile_number NUMERIC(8) NULL,
-    blkfile_offset NUMERIC(20) NULL,
+    blkfile_number NUMERIC(20) NULL,
+    blkfile_offset REAL(20) NULL,
     chain_id    NUMERIC(10) NULL
 )""",
 
